@@ -62,7 +62,6 @@ function submit() {
         var inputs = $('form').find('input, textarea')
 
         inputs.each(function () {
-            //data.append($(this).attr('name'), $(this).val())
             data[$(this).attr('name')] = $(this).val()
         })
         $('#contact-error').text('')
