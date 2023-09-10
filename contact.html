@@ -1,0 +1,68 @@
+<!-- <?php
+ test
+?>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="contact.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="contact.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <div class="modal flex-center-full shadow-background fade-in">
+        <!-- <form  action="contact.php"  >-->
+        <form class="fade-up">
+            <div class="flex-between flex-align-center  contact-top">
+                <h1>Contact Us</h1>
+                <img class="modal-close" src="Content/SVG/close-svgrepo-com.svg" style="width: 1.1em; cursor: pointer;" >
+            </div>
+            
+            <span></span>
+            <label>
+                Name
+            </label>
+            <input name="name" id="name" type="text" required>
+            <label>
+                Email
+            </label>
+            <input name="email" id="email" type="email" required>
+
+            <br>
+            
+            <label>
+                Comments
+            </label>
+            <textarea name="message" id="message" required></textarea>
+            <!--<input type="submit">-->
+            <span onclick="submit()" class=" button hover-button" id="contact-submit">Send Email <img class="button-icon" src="Content/SVG/paper-airplane-svgrepo-com.svg">  </span>
+            <div id="contact-error" class="error">
+    
+            </div>
+            <div class="full-center-top">
+                <div id="contact-loader" class="hidden fade-up">
+                </div>
+            </div>
+           
+            
+        </form>
+        
+    </div>
+    <div onclick="openContactForm()" class="fade-in" style="color: rgb(241, 241, 241); cursor: pointer;" >Click to re-open</div>
+    </main>
+    <div>
+
+    </div>
+</body>
+
+</html>
