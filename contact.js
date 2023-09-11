@@ -1,4 +1,4 @@
-var fun_EmailAttempts = 0; // I like to have some fun
+var fun_EmailAttempts = 0; // just fun, obviously not critical
 
 
 $(function () {
