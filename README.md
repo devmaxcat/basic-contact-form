@@ -1,11 +1,7 @@
 # basic-contact-form
-Contact form showcase
+A contact form using php, js, html, and css.
 
+## Goals:
+Make a visually appealing and functional contact form.
 
-### Live Page:
-https://spradleyc2026.smtchs.org/ContactForm/contact.html
-
-Disclaimer: This is meant to be a showcase of my abilities, there's little bits and pieces that are meant to be funny or cynical but I am more than capable of making a professional project. 
-I just like to have a little fun.
-
-My code is a bit rushed, I try my best to make nice pretty code but life happens.
+Take Taken: ~ 2 days
